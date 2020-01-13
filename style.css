@@ -1,0 +1,11 @@
+.header{
+    display: grid;
+    background-color: blueviolet;
+    min-height : 10rem;
+    color: whitesmoke;
+    padding: 3rem 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
