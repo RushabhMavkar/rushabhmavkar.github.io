@@ -2,6 +2,23 @@
   background-color: blanchedalmond;
 }
 
+.social-cards a{
+  color:dimgray;
+}
+
+.social-card-linkedin:hover{
+  color: rgb(14 114 163);
+}
+
+.social-card-twitter:hover{
+  color: #1e9beb;
+}
+
+.social-card-mail:hover{
+  color: #f70000;
+}
+
+
 .btn-round {
   border-radius: 2rem;
 }
