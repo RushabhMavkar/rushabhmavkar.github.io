@@ -33,6 +33,10 @@
   font-weight: 500;
 }
 
+.navbar-nav a{
+  z-index: 5;
+}
+
 .service-card {
   border: 5px solid #fff;
   min-width: 200px;
