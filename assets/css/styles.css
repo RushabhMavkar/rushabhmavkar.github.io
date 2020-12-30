@@ -2,6 +2,33 @@
   background-color: blanchedalmond;
 }
 
+.logo-container{
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 15px 5px;
+  min-width: 100px;
+  height: 150px;
+  background: #f8f9fa;
+  filter: grayscale(100%);
+  transition: filter .3s;
+  border: 2px solid #fff;
+}
+
+.logo-container:hover{
+  filter: grayscale(0%);
+}
+
+.tech-logo{
+  height: 60px;
+  width: auto;
+}
+
+.logo-text{
+  margin-top: 30px;
+  font-weight: 500;
+  color: darkslategray;
+}
+
 .social-cards a{
   color:dimgray;
 }
@@ -177,7 +204,7 @@
   position: absolute;
   top: 7vh;
   left: 0;
-  transform: translate(5vw, 13vh);
+  transform: translate(3vw, 13vh);
   animation: 25s linear 0s infinite alternate animate-s1;
 }
 
@@ -234,10 +261,10 @@
 
 @keyframes animate-s1 {
   from {
-    transform: translateX(80vw);
+    transform: translateX(40vw);
   }
   to {
-    transform: translateX(30vw);
+    transform: translateX(20vw);
   }
 }
 
