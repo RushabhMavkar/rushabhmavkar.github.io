@@ -28,6 +28,22 @@
   position: relative;
 }
 
+#logo{
+  position: fixed;
+  z-index: 10;
+  transition: opacity .3s;
+}
+
+.logo-in-animation {
+  opacity: 1;
+  animation: logo-fade-in .5s 1; 
+}
+
+.logo-out-animation{
+  opacity: 0;
+  animation: logo-fade-out .5s 1;
+}
+
 .navbar-nav {
   margin-left: auto;
   font-weight: 500;
@@ -160,6 +176,24 @@
   left: 0;
   transform: translate(19vw, 82vh);
   animation: 30s linear 0s infinite alternate animate-s3;
+}
+
+@keyframes logo-fade-in{
+  from{
+    transform: scale(0);
+  }
+  to{
+    transform: scale(100%);
+  }
+}
+
+@keyframes logo-fade-out{
+  from{
+    transform: scale(100%);
+  }
+  to{
+    transform: scale(0);
+  }
 }
 
 @keyframes slide {
