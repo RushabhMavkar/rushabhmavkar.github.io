@@ -19,8 +19,9 @@
   color: #de8500;
 }
 
-body {
+#main {
   overflow-x: hidden;
+  position: relative;
 }
 
 .navbar-nav {
