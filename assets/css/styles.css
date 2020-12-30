@@ -2,6 +2,10 @@
   background-color: blanchedalmond;
 }
 
+.btn-round {
+  border-radius: 2rem;
+}
+
 .btn-sand {
   font-weight: 500;
   color: rgb(221, 133, 0);
@@ -49,9 +53,7 @@
   z-index: 5;
 }
 
-.btn-round {
-  border-radius: 1rem;
-}
+
 
 .circle {
   position: absolute;
