@@ -131,7 +131,7 @@
   width: auto;
   height: 45px;
   margin:auto 15px;
-  box-shadow: 0 0 0px 0px #000;
+  box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0);
   transition: box-shadow 0.3s;
   transition: height 0.3s;
 }
