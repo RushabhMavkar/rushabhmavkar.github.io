@@ -29,21 +29,37 @@
   color: darkslategray;
 }
 
-.social-cards a{
-  color:dimgray;
+
+.social-card{
+  filter: grayscale(100%);
+  transition: filter 0.3s;
 }
 
-.social-card-linkedin:hover{
-  color: rgb(14 114 163);
+.social-card:hover{
+  filter: grayscale(0%);
 }
 
-.social-card-twitter:hover{
-  color: #1e9beb;
+.social-card img{
+  width: auto;
+  height: 40px;
 }
 
-.social-card-mail:hover{
-  color: #f70000;
+.social-card p{
+  margin-top: 5px;
 }
+
+#contact-section a:nth-child(1){
+  color: #0177b5;
+}
+
+#contact-section a:nth-child(2){
+  color: #ea4435;
+}
+
+#contact-section a:nth-child(3){
+  color: #38a8e0;
+}
+
 
 
 .btn-round {
