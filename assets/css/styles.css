@@ -97,13 +97,7 @@
   z-index: 5;
 }
 
-.service-card {
-  background-color:  #f8f9fa;
-  border: 5px solid #fff;
-  min-width: 200px;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
-}
+
 
 .introduction h2 {
   text-align: start;
@@ -120,23 +114,43 @@
   z-index: 5;
 }
 
+.service-card {
+  flex: 1 1 auto;
+  background-color:  #f8f9fa;
+  border: 5px solid #fff;
+  min-width: 200px;
+  filter: grayscale(100%);
+  -webkit-transition: filter 0.3s;
+  transition: color 0.3s;
+}
+
+.service-card:hover{
+  filter: grayscale(0%);
+}
+
+.services-logo{
+  width: auto;
+  height: 45px;
+  margin:auto 15px;
+}
+
 
 .card-1:hover{
-  color: chocolate;
+  color: #e49206;
 }
 
 .card-2:hover{
-  color: darkred;
+  color: #9257a2;
 }
 
 
 .card-3:hover{
-  color: darkviolet;
+  color: #3a6c87;
 }
 
 
 .card-4:hover{
-  color: darkolivegreen;
+  color: #f37a5d;
 }
 
 
