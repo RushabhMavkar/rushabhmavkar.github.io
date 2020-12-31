@@ -119,41 +119,45 @@
   background-color:  #f8f9fa;
   border: 5px solid #fff;
   min-width: 200px;
-  filter: grayscale(100%);
-  -webkit-transition: filter 0.3s;
   transition: color 0.3s;
 }
 
 .service-card:hover{
-  filter: grayscale(0%);
+  color: #fff;
 }
 
 .services-logo{
+  border-radius: 100%;
   width: auto;
   height: 45px;
   margin:auto 15px;
+  box-shadow: 0 0 0px 0px #000;
+  transition: all 0.3s;
+}
+
+.service-card:hover img{
+  height: 50px;
+  box-shadow: 0 0 8px 0px #000;
 }
 
 
 .card-1:hover{
-  color: #e49206;
+  background-color: #e49206;
 }
 
 .card-2:hover{
-  color: #9257a2;
+  background-color: #9257a2;
 }
 
 
 .card-3:hover{
-  color: #3a6c87;
+  background-color: #3a6c87;
 }
 
 
 .card-4:hover{
-  color: #f37a5d;
+  background-color: #f37a5d;
 }
-
-
 
 
 .circle {
