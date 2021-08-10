@@ -2,7 +2,7 @@ var certificates = {
   visible: [
     {
       title: "Problem Solving Using Computational Thinking",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate deleniti similique ex minima atque incidunt dolorem natus sequi iure voluptatem.",
+      desc: "",
       date: "June 2021",
       credential_id: "QV27VQQU5SGD",
       credential_url: "https://www.coursera.org/account/accomplishments/certificate/QV27VQQU5SGD",
