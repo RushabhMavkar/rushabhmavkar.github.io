@@ -215,6 +215,10 @@ nav {
   box-shadow: 0 0 10px 0px var(--main-color-dark);
 }
 
+.project-inverse img {
+  grid-column: 6/-1;
+}
+
 .project {
   position: relative;
   display: grid;
@@ -222,6 +226,7 @@ nav {
   grid-template-columns: repeat(12, 1fr);
   -webkit-box-align: center;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .project-info {
@@ -231,14 +236,33 @@ nav {
   text-align: end;
 }
 
+.project-inverse .project-info {
+  grid-column: 1/8;
+  text-align: left;
+}
+
 .project-tech {
   justify-content: flex-end;
+}
+
+.project-inverse .project-tech {
+  justify-content: flex-start;
 }
 
 .project-description {
   background: var(--main-color);
   padding: 1rem;
   box-shadow: 0 0 15px -2px black;
+}
+
+.project-tech li {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.project-inverse .project-tech li {
+  margin-right: 20px;
+  margin-left: 0px;
 }
 
 #project-container {
@@ -264,14 +288,14 @@ nav {
   .project-info {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    grid-column: 1 / -1;
+    text-align: center !important;
+    grid-column: 1 / -1 !important;
     background: rgb(23 31 59 / 25%);
     height: 100%;
   }
 
   .project-tech {
-    justify-content: center;
+    justify-content: center !important;
     margin-bottom: auto;
     margin-top: 0;
   }
