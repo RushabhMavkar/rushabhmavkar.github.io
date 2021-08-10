@@ -1,0 +1,278 @@
+:root {
+  --accent-color: #3f51b5;
+  --font-light: white;
+  --font-muted: gray;
+  --main-color: #171f3b;
+  --main-color-light: #a2a2ff;
+  --main-color-dark: #11172b;
+  --accent-light-color: #29ffa7;
+}
+
+body {
+  background: var(--main-color);
+  color: var(--font-light);
+}
+
+nav {
+  backdrop-filter: blur(5px);
+}
+
+#nav-logo {
+  padding: 4px;
+  height: 40px;
+  width: auto;
+}
+
+#header {
+  height: 100vh;
+  background-image: url("static/main-banner.png");
+}
+
+#header p {
+  color: var(--main-color-light);
+}
+
+#header h1 {
+  font-weight: 900;
+}
+
+#visible_certificates,
+#hidden_certificates {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.certificate {
+  background: var(--main-color-dark);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.certificate ul,
+.project-tech {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.certificate ul li,
+.project-tech li {
+  margin-right: 20px;
+  color: var(--font-muted);
+}
+
+.cert-title {
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.cert-desc {
+  color: darkgray;
+  margin-top: 10px;
+}
+
+.cert-semi {
+  color: #7f9cff;
+}
+
+.cert-head {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cert-head svg {
+  height: 20px;
+  width: auto;
+  color: white;
+  stroke: currentcolor;
+  stroke-width: 2.5;
+}
+
+.offcanvas {
+  background: #1f2852;
+}
+
+.modal-backdrop.show {
+  backdrop-filter: blur(0px);
+  filter: blur(5px) brightness(0.7);
+  opacity: 1;
+}
+
+.modal-backdrop {
+  background: none;
+}
+
+.cust-btn {
+  color: var(--accent-light-color);
+  border: 1px solid;
+  border-radius: 25px;
+  background: none;
+}
+
+.contactbtn-holder {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+
+#left {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 20px;
+  right: auto;
+  z-index: 10;
+}
+
+#left ul {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+#left li {
+  margin-bottom: 1.5rem;
+}
+
+#left svg {
+  color: var(--main-color-light);
+}
+
+#left ul::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: var(--main-color-light);
+}
+.arrow-link-holder {
+  background: var(--accent-color);
+}
+.arrow-link {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-weight: 700;
+  display: inline-block;
+  white-space: nowrap;
+  color: var(--font-light);
+  text-decoration: none;
+}
+
+.arrow-link svg {
+  stroke: currentColor;
+  stroke-width: 0.5px;
+}
+
+#skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 0px 10px;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  overflow: hidden;
+  list-style: outside none none;
+}
+
+#skills-list li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+#skills-list li::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: var(--accent-light-color);
+  line-height: 1.1rem;
+}
+
+#skills h6 {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.project img {
+  width: 100%;
+  filter: brightness(0.4);
+  grid-area: 1 / 1 / 1 / 8;
+  position: relative;
+  z-index: 1;
+  grid-column: 1/8;
+  box-shadow: 0 0 10px 0px var(--main-color-dark);
+}
+
+.project {
+  position: relative;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.project-info {
+  grid-column: 6 / -1;
+  grid-row: 1;
+  z-index: 1000;
+  text-align: end;
+}
+
+.project-tech {
+  justify-content: flex-end;
+}
+
+.project-description {
+  background: var(--main-color);
+  padding: 1rem;
+  box-shadow: 0 0 15px -2px black;
+}
+
+#project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .project img {
+    grid-column: 1/-1;
+  }
+
+  .project-title {
+    margin-top: auto;
+  }
+
+  .project-description {
+    background: none;
+    box-shadow: none;
+  }
+
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-column: 1 / -1;
+    background: rgb(23 31 59 / 25%);
+    height: 100%;
+  }
+
+  .project-tech {
+    justify-content: center;
+    margin-bottom: auto;
+    margin-top: 0;
+  }
+}

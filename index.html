@@ -1,264 +1,154 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="main.js">
+      document.onload="add_certifications()"
+    </script>
+    <script src="certifications.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="anim.css" />
 
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Rushabh Mavkar - Freelance Web Designer, UI/UX Developer | Best Website Designer</title>
-    <meta name=”description”
-        content="A freelance Website Designer, UI/UX & Wordpress Developer from Pune, India. My goal is provide best Websites and get your Business on the Internet.">
-    <meta name="google-site-verification" content="xLJTgt0I83bGPZFM3h0eUn2N8_Hu9lh0CG82QYkrK9A" />
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="icon" href="assets/images/logo_small_wname-min.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/main.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/styles.css'>
-</head>
+    <title>Rushabh Mavkar</title>
+  </head>
 
-<body>
-    <div id="main">
-        <nav class="navbar navbar-expand-lg navbar-light bg-sand">
-            <div class="container-fluid">
-                <p class="navbar-brand user-select-none">
-                    <img id="logo" src="assets/images/logo_small_wname-min.png"
-                        alt="Rushabh Mavkar - Web Developer Logo" width="30" height="30"
-                        class="d-inline-block align-top logo-out-animation">
-                    Rushabh Mavkar
-                    </a>
-                </p>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class=" collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="#specialization">Services</a>
-                        <a class="nav-link" href="#projects">Projects</a>
-                        <a class="nav-link" href="#">Hire me</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <div class="bg-sand vh-100  d-flex justify-content-center align-items-center header">
-            <div class="introduction">
-                <h1 class="display-1 text-center"><span class="text-sand">Hello.</span> I'm Rushabh Mavkar.</h1>
-                <h2 class="text-muted display-6 p-1">I'm a Web & Mobile UI/UX Designer<span class="text-sand">.</span>
-                    </h6>
-            </div>
-            <div id="icon-square"></div>
-            <div id="icon-triangle"></div>
-            <div class="circle"></div>
-            <h1 class="slogan slogan1 user-select-none">Designer</h1>
-            <h1 class="slogan slogan2 user-select-none">Developer</h1>
-            <h1 class="slogan slogan3 user-select-none">UI/UX</h1>
-        </div>
-
-
-
-        <div class="container mt-5 fades py-3">
-            <p id="projects" class="mb-0 text-sand h6">Know me</h6>
-            <h1 class="text-muted display-5">About.</h2>
-                <p class="lead">I am the Web Developer based in India. Passionate about building world class web
-                    applications. Known for Productive and Engaging web solution, High Speed Web apps. My Web
-                    Development has helped grow revenues, accelerate customer acquisition, improve customer service,
-                    increase web traffic and deliver an industrial leading competitive advantage.</p>
-        </div>
-
-        <div class="container mt-5">
-            <p id="projects" class="mb-0 text-sand h6">My work</h6>
-            <h1 class="display-5 text-muted mb-4">Latest Projects.</h1>
-
-            <div class="row row-cols-sm-2 flex-wrap justify-content-between">
-                <img class="project-banner img-fluid"
-                    src="https://s3.amazonaws.com/www-inside-design/uploads/2017/05/featured-min-810x810.png"
-                    alt="laptop">
-                <img class="project-banner img-fluid"
-                    src="https://s3.amazonaws.com/www-inside-design/uploads/2019/03/featured-min-810x810.png"
-                    alt="laptop">
-                <img class="project-banner img-fluid"
-                    src="https://s3.amazonaws.com/www-inside-design/uploads/2018/07/atlas-featured_image-2x-768x768.jpg"
-                    alt="laptop">
-                <img class="project-banner img-fluid"
-                    src="https://s3.amazonaws.com/www-inside-design/uploads/2019/01/velocity-featured-768x768.png"
-                    alt="laptop">
-            </div>
-
-            <div class="text-center mt-3">
-                <a class="btn btn-lg btn-round btn-primary" href="#">View More Projects</a>
-            </div>
-        </div>
-
-        <div class="container mt-5">
-            <p class="mb-0 text-sand h6">Technologies I work with</h6>
-            <h1 class="display-5 text-muted mb-4">Technology.</h1>
-            <div class="row row-cols-5 justify-content-around">
-                <div class="logo-container">
-                    <img class="tech-logo" src="assets/images/programming/html5.svg" alt="html5 logo">
-                    <p class="logo-text">HTML5</p>
-                </div>
-                <div class="logo-container">
-                    <img class="tech-logo" src="assets/images/programming/javascript.svg" alt="javascript logo">
-                    <p class="logo-text">Javascript</p>
-                </div>
-                <div class="logo-container">
-                    <img class="tech-logo" src="assets/images/programming/firebase.svg" alt="google firebase logo">
-                    <p class="logo-text">Firebase</p>
-                </div>
-                <div class="logo-container">
-                    <img class="tech-logo" src="assets/images/programming/python.svg" alt="python3 logo">
-                    <p class="logo-text">Python</p>
-                </div>
-                <div class="logo-container">
-                    <img class="tech-logo" src="assets/images/programming/bootstrap.svg" alt="bootstrap logo">
-                    <p class="logo-text">Bootstrap</p>
-                </div>
-                <div class="logo-container">
-                    <img class="tech-logo" src="assets/images/programming/django.svg" alt="python django logo">
-                    <p class="logo-text">Django</p>
-                </div>
-                <div class="logo-container">
-                    <img class="tech-logo" src="assets/images/programming/flask.svg" alt="python flask logo">
-                    <p class="logo-text">Flask</p>
-                </div>
-                <div class="logo-container">
-                    <img class="tech-logo" src="assets/images/programming/wordpress.svg" alt="wordpress logo">
-                    <p class="logo-text">Wordpress</p>
-                </div>
-                <div class="logo-container">
-                    <img class="tech-logo" src="assets/images/programming/heroku.svg" alt="heroku logo">
-                    <p class="logo-text">Heroku</p>
-                </div>
-                <div class="logo-container">
-                    <img class="tech-logo" src="assets/images/programming/css.svg" alt="css3 logo">
-                    <p class="logo-text">CSS3</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container mt-5">
-            <p id="specialization" class="mb-0 text-sand h6">What I Do</h6>
-            <h1 class="display-5 text-muted mb-4">Specialized in.</h1>
-
-            <div class="row row-cols-md-2">
-
-                <div class="col card-1 p-2 service-card">
-                    <div class="d-flex">
-                        <div class="d-flex">
-                            <img class="services-logo" src="assets/images/services/webpage.svg" alt="Browser icon"
-                                height="160" width="160">
-                        </div>
-                        <div>
-                            <h6 class="mb-1 mt-2">Web Development</h6>
-                            <p class="muted">HTML/CSS, Javascript, Animation, Wordpress, Responsive Websites.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col card-2 p-2 service-card">
-                    <div class="d-flex">
-                        <div class="d-flex">
-                            <img class="services-logo" src="assets/images/services/ui.svg" alt="UI/UX icon" height="160"
-                                width="160">
-                        </div>
-                        <div>
-                            <h6 class="mb-1 mt-2">UI/UX</h6>
-                            <p class="muted">Landing Pages, User FLow, Wireframing, Prototyping.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col card-3 p-2 service-card">
-                    <div class="d-flex">
-                        <div class="d-flex">
-                            <img class="services-logo" src="assets/images/services/path.svg" alt="Design icon"
-                                height="160" width="160">
-                        </div>
-                        <div>
-                            <h6 class="mb-1 mt-2">App Design & Prototype</h6>
-                            <p class="muted">Adobe XD Prototypes, Wireframing and Animations.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col card-4 p-2 service-card">
-                    <div class="d-flex">
-                        <div class="d-flex">
-                            <img class="services-logo" src="assets/images/services/graph.svg" alt="branding icon"
-                                height="160" width="160">
-                        </div>
-                        <div>
-                            <h6 class="mb-1 mt-2">Branding</h6>
-                            <p class="muted">HTML/CSS, Javascript, Animation, Wordpress, Responsive Websites.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container mt-5">
-            <p id="specialization" class="mb-0 text-sand h6">Lets talk</h6>
-            <h1 class="display-5 text-muted mb-4">Contact.</h1>
-
-            <div>
-                <form action="https://app.99inbound.com/api/e/aPl5_HoE" method="POST">
-                    <div style="position: absolute; left: -5000px;">
-                        <input type="checkbox" name="stupendous_tan_tartan_video_game" value="1" tabindex="-1"
-                            autocomplete="no">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Your email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" name="_replyto">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                            name="message"></textarea>
-                    </div>
-                    <!-- your other form fields go here -->
-                    <div class="d-flex justify-content-end">
-                        <button class="btn btn-sand" type="submit">Send</button>
-                    </div>
-                </form>
-            </div>
-
-            <!-- <hr class="my-4 text--light"> -->
-
-            <div id="contact-section" class="d-flex justify-content-evenly mt-5 p-3 bg-light">
-                <a href="#" class="text-decoration-none">
-                    <div class="text-center social-card">
-                        <img src="assets/images/social/linkedin.svg" alt="logo" class="social-icon">
-                        <p class="h6 mx-2">LinkedIn</p>
-                    </div>
-                </a>
-                <a href="#" class="text-decoration-none">
-                    <div class="text-center social-card">
-                        <img src="assets/images/social/gmail (2).svg" alt="logo" class="social-icon">
-                        <p class="h6 mx-2">Gmail</p>
-                    </div>
-                </a>
-                <a href="#" class="text-decoration-none">
-                    <div class="text-center social-card">
-                        <img src="assets/images/social/connection.svg" alt="logo" class="social-icon">
-                        <p class="h6 mx-2">Twitter</p>
-                    </div>
-                </a>
-            </div>
-
-            <!-- <hr class="my-4 text--light"> -->
-        </div>
-
-
+  <body>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+        <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">...</div>
     </div>
-</body>
-<script src='assets/js/main.js'></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
+    <section id="header">
+      <div class="h-100">
+        <!-- navbar -->
+        <nav class="navbar sticky-top navbar-light">
+          <div class="container-fluid">
+            <img id="nav-logo" src="static/logo.png" alt="Rushabh Mavkar Logo" />
 
+            <button class="btn text-light ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+              </svg>
+            </button>
+          </div>
+        </nav>
+        <!-- navbar -->
+        <div class="container mt-5">
+          <small class="ms-1 text-muted">Status: In development</small>
+          <p class="mb-0 ms-1">Hey, I am</p>
+          <h1 class="display-1">Rushabh Mavkar.</h1>
+        </div>
+        <div class="contactbtn-holder container">
+          <a href="mailto:mavkar.rushabh97@gmail.com" class="btn btn-lg btn-info cust-btn" target="_blank">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container mt-5">
+        <h6>Here are a few technologies I've been working with recently:</h6>
+        <ul id="skills-list">
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>Heroku</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Django</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container mt-5 mb-4">
+        <h2>Projects I have worked on.</h2>
+
+        <div id="project-container">
+          <div class="project">
+            <img src="static/projects/trade.png" alt="" />
+            <div class="project-info">
+              <h4 class="project-title">TradingView</h4>
+              <p class="project-description">A trading platform made with Python using Django Framework and hosted on Heroku.</p>
+              <ul class="project-tech">
+                <li>Python</li>
+                <li>Django</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="left" class="d-lg-block d-none d-xl-block">
+      <ul>
+        <li>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+              <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <section id="certifications">
+      <div class="container">
+        <h2 class="mb-3 mt-5">Certifications.</h2>
+        <div id="visible_certificates"></div>
+
+        <section class="collapse hide" id="collapsecert">
+          <div id="hidden_certificates"></div>
+        </section>
+      </div>
+
+      <div class="mt-3 d-flex justify-content-center">
+        <button id="cert-collapse-btn" onclick="toggleCollapseBtnText()" class="btn btn-info cust-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapsecert">Show More</button>
+      </div>
+    </section>
+
+    <section id="resume" class="mt-5">
+      <a href="resume.pdf" target="_blank" class="arrow-link w-100 text-decoration-none">
+        <div class="arrow-link-holder d-flex justify-content-center py-3">
+          View my Resume
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+          </svg>
+        </div>
+      </a>
+    </section>
+
+    <section id="footer">
+      <footer class="mt-5 d-flex justify-content-center">
+        <p class="cerdits">
+          <small class="text-muted">Designed and Developed by Rushabh Mavkar</small>
+        </p>
+      </footer>
+    </section>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>

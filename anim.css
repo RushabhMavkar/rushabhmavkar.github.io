@@ -1,0 +1,36 @@
+:root {
+  --accent-color: #3f51b5;
+  --main-color: #171f3b;
+  --main-color-light: #a2a2ff;
+  --main-color-dark: #11172b;
+  --fade-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.certificate,
+.arrow-link-holder,
+.arrow-link svg {
+  transition: var(--fade-transition);
+}
+
+.certificate:hover .cert-title {
+  color: var(--main-color-light);
+}
+
+.certificate:hover .cert-semi {
+  color: white;
+}
+
+.certificate:hover {
+  transform: translateY(-5px);
+  background: var(--main-color);
+  box-shadow: 0px 5px 20px 0px black;
+}
+
+#resume:hover .arrow-link-holder {
+  background: var(--main-color-light);
+  color: var(--main-color-dark);
+}
+
+#resume:hover .arrow-link svg {
+  transform: translateX(8px);
+}
