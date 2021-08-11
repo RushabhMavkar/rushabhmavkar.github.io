@@ -300,3 +300,27 @@ nav {
     margin-top: 0;
   }
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .credits small {
+  color: var(--font-muted);
+}
+
+.social ul {
+  list-style: none;
+  display: flex;
+}
+
+.social li {
+  margin: 0 15px;
+}
+
+.social a {
+  text-decoration: none;
+  color: var(--font-muted);
+}
