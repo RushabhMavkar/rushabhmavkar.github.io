@@ -232,7 +232,7 @@ nav {
 .project-info {
   grid-column: 6 / -1;
   grid-row: 1;
-  z-index: 1000;
+  z-index: 9;
   text-align: end;
 }
 
