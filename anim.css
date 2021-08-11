@@ -1,11 +1,16 @@
 :root {
   --accent-color: #3f51b5;
+  --font-light: white;
+  --font-muted: gray;
   --main-color: #171f3b;
   --main-color-light: #a2a2ff;
   --main-color-dark: #11172b;
+  --accent-light-color: #29ffa7;
   --fade-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+.credits small,
+.social svg,
 .certificate,
 .arrow-link-holder,
 .arrow-link svg {
@@ -33,4 +38,13 @@
 
 #resume:hover .arrow-link svg {
   transform: translateX(8px);
+}
+
+.social svg:hover {
+  color: var(--accent-light-color);
+}
+
+footer:hover .credits small {
+  font-size: 0.9rem;
+  color: white;
 }
