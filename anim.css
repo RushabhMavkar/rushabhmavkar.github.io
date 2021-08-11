@@ -6,8 +6,6 @@
   --fade-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.credits small,
-.social a,
 .certificate,
 .arrow-link-holder,
 .arrow-link svg {
@@ -35,13 +33,4 @@
 
 #resume:hover .arrow-link svg {
   transform: translateX(8px);
-}
-
-.social a:hover {
-  color: var(--accent-light-color);
-}
-
-footer:hover .credits small {
-  color: white;
-  font-size: 0.89rem;
 }
