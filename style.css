@@ -26,6 +26,7 @@ nav {
 #header {
   height: 100vh;
   background-image: url("static/main-banner.png");
+  background-repeat: no-repeat;
 }
 
 #header p {
