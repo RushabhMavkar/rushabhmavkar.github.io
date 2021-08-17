@@ -9,6 +9,7 @@
   --fade-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+#left li,
 .credits small,
 .social svg,
 .certificate,
@@ -47,4 +48,16 @@
 footer:hover .credits small {
   font-size: 0.9rem;
   color: white;
+}
+
+#left li:hover {
+  transform: translateY(-5px);
+}
+
+#left svg:hover {
+  color: var(--accent-light-color);
+}
+
+#left ul:hover::after {
+  background-color: var(--accent-light-color) !important;
 }
