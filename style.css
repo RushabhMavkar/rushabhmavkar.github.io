@@ -319,6 +319,13 @@ footer .credits small {
 
 .social li {
   margin: 0 15px;
+  border-bottom: 2px solid var(--main-color);
+}
+
+.social svg {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
 }
 
 .social a {

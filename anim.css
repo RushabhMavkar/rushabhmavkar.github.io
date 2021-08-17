@@ -12,6 +12,7 @@
 #left li,
 .credits small,
 .social svg,
+.social li,
 .certificate,
 .arrow-link-holder,
 .arrow-link svg {
@@ -43,6 +44,10 @@
 
 .social svg:hover {
   color: var(--accent-light-color);
+}
+
+.social li:hover {
+  border-bottom-color: var(--accent-light-color);
 }
 
 footer:hover .credits small {
