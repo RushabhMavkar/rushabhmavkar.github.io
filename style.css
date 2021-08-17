@@ -284,6 +284,12 @@ nav {
     margin-top: auto;
   }
 
+  .project-title a {
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 0 0 20px var(--accent-light-color);
+  }
+
   .project-description {
     background: none;
     box-shadow: none;

@@ -10,6 +10,7 @@
 }
 
 #left li,
+.project-title a,
 .credits small,
 .social svg,
 .social li,
@@ -65,4 +66,9 @@ footer:hover .credits small {
 
 #left ul:hover::after {
   background-color: var(--accent-light-color) !important;
+}
+
+.project-title a:hover {
+  color: var(--accent-light-color);
+  text-shadow: 0 0 white;
 }
