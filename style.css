@@ -50,7 +50,7 @@ nav {
 #hidden_certificates {
   margin-top: 15px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
   gap: 15px;
 }
 
