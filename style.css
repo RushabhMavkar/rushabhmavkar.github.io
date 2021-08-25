@@ -22,6 +22,7 @@ nav {
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
   nav {
     backdrop-filter: blur(5px);
+    opacity: 1;
     background: none;
   }
 }
