@@ -39,6 +39,7 @@ nav {
 
 #header p {
   color: var(--main-color-light);
+  margin-bottom: -11px;
 }
 
 #header h1 {
