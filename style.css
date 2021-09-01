@@ -6,6 +6,7 @@
   --main-color-light: #a2a2ff;
   --main-color-dark: #11172b;
   --accent-light-color: #29ffa7;
+  --accent-pop-color: #ffc107;
 }
 
 body {
@@ -26,9 +27,11 @@ nav {
 }
 
 #nav-logo {
-  padding: 4px;
+  padding: 1px;
   height: 40px;
   width: auto;
+  border-radius: 5rem;
+  background: var(--accent-color);
 }
 
 #header {
