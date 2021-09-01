@@ -7,6 +7,18 @@
   --main-color-dark: #11172b;
   --accent-light-color: #29ffa7;
   --accent-pop-color: #ffc107;
+  --select-background-color: cyan;
+  --select-color: #3f51b5;
+}
+
+::-moz-selection {
+  color: var(--select-color);
+  background: var(--select-background-color);
+}
+
+::selection {
+  color: var(--select-color);
+  background: var(--select-background-color);
 }
 
 body {
