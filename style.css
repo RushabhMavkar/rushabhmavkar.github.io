@@ -113,19 +113,6 @@ nav {
   color: #7f9cff;
 }
 
-.cert-head {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.cert-head svg {
-  height: 20px;
-  width: auto;
-  color: white;
-  stroke: currentcolor;
-  stroke-width: 2.5;
-}
-
 .offcanvas {
   background: #1f2852;
 }
