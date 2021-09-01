@@ -26,7 +26,7 @@ nav {
   }
 }
 
-#nav-logo {
+.nav-logo {
   padding: 1px;
   height: 40px;
   width: auto;
