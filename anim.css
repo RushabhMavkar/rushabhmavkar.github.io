@@ -11,6 +11,7 @@
 }
 
 #left li,
+.nav-logo,
 .cust-btn,
 .project-title a,
 .credits small,
@@ -56,6 +57,11 @@
 footer:hover .credits small {
   font-size: 0.9rem;
   color: white;
+}
+
+footer:hover .nav-logo {
+  box-shadow: 0 0 10px var(--accent-color);
+  background: white;
 }
 
 #left li:hover {
