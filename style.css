@@ -71,7 +71,7 @@ nav {
 
 .certificate {
   background: var(--main-color-dark);
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -94,9 +94,14 @@ nav {
   color: #9e9e9e;
 }
 
+.certificate a {
+  text-decoration: none;
+}
+
 .cert-title {
   font-weight: 900;
   margin-bottom: 0;
+  color: white;
 }
 
 .cert-desc {
