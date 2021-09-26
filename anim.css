@@ -40,6 +40,7 @@
 #resume:hover .arrow-link-holder {
   background: var(--accent-pop-color);
   color: var(--main-color-dark);
+  font-weight: 600;
 }
 
 #resume:hover .arrow-link svg {

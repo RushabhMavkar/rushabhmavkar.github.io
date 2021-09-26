@@ -24,7 +24,7 @@
 body {
   background: var(--main-color);
   color: var(--font-light);
-  font-family: 'Roboto', serif !important;
+  font-family: "Roboto", serif !important;
 }
 
 nav {
@@ -100,7 +100,6 @@ nav {
 }
 
 .cert-title {
-  font-weight: 900;
   margin-bottom: 0;
   color: white;
 }
@@ -183,7 +182,7 @@ nav {
 .arrow-link {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  font-weight: 700;
+  font-weight: 400;
   display: inline-block;
   white-space: nowrap;
   color: var(--font-light);
@@ -220,8 +219,7 @@ nav {
 }
 
 #skills h6 {
-  font-size: 1.2rem;
-  font-weight: 800;
+  font-size: 1.3rem;
 }
 
 .project img {
