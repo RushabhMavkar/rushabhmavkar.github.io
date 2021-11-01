@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './portfolio/navbar/navbar.component';
 import { HeaderComponent } from './portfolio/header/header.component';
 import { SkillsComponent } from './portfolio/skills/skills.component';
+import { ProjectsComponent } from './portfolio/projects/projects.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HeaderComponent, SkillsComponent],
+  declarations: [AppComponent, NavbarComponent, HeaderComponent, SkillsComponent, ProjectsComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
