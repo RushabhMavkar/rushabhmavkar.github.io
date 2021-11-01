@@ -1,0 +1,19 @@
+nav {
+  background: #171f3b2b;
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  nav {
+    backdrop-filter: blur(5px);
+    opacity: 1;
+    background: none;
+  }
+}
+
+.nav-logo {
+  padding: 1px;
+  height: 40px;
+  width: auto;
+  border-radius: 5rem;
+  background: var(--accent-color);
+}
