@@ -3,3 +3,12 @@
   justify-content: space-evenly;
   margin-top: 4rem;
 }
+
+#title-stop {
+  color: var(--main-color-light);
+  margin-bottom: -11px;
+}
+
+#header-name {
+  font-weight: 700;
+}

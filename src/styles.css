@@ -25,6 +25,7 @@
 body {
   background: var(--main-color);
   color: var(--font-light);
+  font-family: "Roboto", serif !important;
 }
 
 .cust-btn {
