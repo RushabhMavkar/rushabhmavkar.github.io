@@ -1,38 +1,7 @@
-:root {
-  --accent-color: #3f51b5;
-  --font-light: white;
-  --font-muted: gray;
-  --main-color: #171f3b;
-  --main-color-light: #a2a2ff;
-  --main-color-dark: #11172b;
-  --accent-light-color: #29ffa7;
-  --accent-pop-color: #ffc107;
-  --select-background-color: cyan;
-  --select-color: #3f51b5;
-}
-
 #header {
   height: 100vh;
   background-image: url("../assets/main-banner.png");
   background-repeat: no-repeat;
-}
-
-.certificate ul,
-.project-tech {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  font-size: 0.85rem;
-  margin-top: auto;
-  margin-bottom: 0;
-}
-
-.certificate ul li,
-.project-tech li {
-  margin-right: 20px;
-  color: #9e9e9e;
 }
 
 .offcanvas {
@@ -47,47 +16,6 @@
 
 .modal-backdrop {
   background: none;
-}
-
-#left {
-  width: 40px;
-  position: fixed;
-  bottom: 0px;
-  left: 20px;
-  right: auto;
-  z-index: 10;
-}
-
-#left ul {
-  display: flex;
-  flex-direction: column;
-  -webkit-box-align: center;
-  align-items: center;
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
-
-#left li {
-  margin-bottom: 1.5rem;
-}
-
-#left svg {
-  color: var(--main-color-light);
-}
-
-#left ul::after {
-  content: "";
-  display: block;
-  width: 2px;
-  height: 90px;
-  margin: 0px auto;
-  background-color: var(--main-color-light);
-}
-.title-border {
-  border-bottom: 2px solid var(--accent-color);
-  display: inline-block;
-  padding-bottom: 3px;
 }
 
 #hackerrank-badges svg {

@@ -33,3 +33,9 @@ body {
   border: 1px solid;
   border-radius: 12px;
 }
+
+.title-border {
+  border-bottom: 2px solid var(--accent-color);
+  display: inline-block;
+  padding-bottom: 3px;
+}

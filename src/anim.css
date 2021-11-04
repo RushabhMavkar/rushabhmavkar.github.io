@@ -52,12 +52,12 @@
 }
 
 .social li:hover {
-  border-bottom-color: var(--accent-light-color);
+  border-bottom-color: var(--accent-light-color) !important;
 }
 
 footer:hover .credits small {
-  font-size: 0.9rem;
-  color: white;
+  font-size: 0.9rem !important;
+  color: white !important;
 }
 
 footer:hover .nav-logo {
@@ -70,7 +70,7 @@ footer:hover .nav-logo {
 }
 
 #left svg:hover {
-  color: var(--accent-light-color);
+  color: var(--accent-light-color) !important;
 }
 
 #left ul:hover::after {
@@ -83,7 +83,7 @@ footer:hover .nav-logo {
 }
 
 .cust-btn.btn-lg:hover {
-  box-shadow: 0 0 20px var(--accent-light-color);
+  box-shadow: 0 0 20px var(--accent-light-color) !important;
 }
 
 @keyframes flicker {
