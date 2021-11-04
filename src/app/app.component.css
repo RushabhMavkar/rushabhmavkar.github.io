@@ -17,15 +17,6 @@
   background-repeat: no-repeat;
 }
 
-#header p {
-  color: var(--main-color-light);
-  margin-bottom: -11px;
-}
-
-#header h1 {
-  font-weight: 900;
-}
-
 .certificate ul,
 .project-tech {
   list-style: none;

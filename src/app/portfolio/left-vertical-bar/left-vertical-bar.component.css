@@ -1,0 +1,35 @@
+#left {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 20px;
+  right: auto;
+  z-index: 10;
+}
+
+#left ul {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+#left li {
+  margin-bottom: 1.5rem;
+}
+
+#left svg {
+  color: var(--main-color-light);
+}
+
+#left ul::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: var(--main-color-light);
+}
