@@ -1,0 +1,19 @@
+.arrow-link-holder {
+  background: var(--accent-color);
+  z-index: 15;
+  position: relative;
+}
+.arrow-link {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-weight: 400;
+  display: inline-block;
+  white-space: nowrap;
+  color: var(--font-light);
+  text-decoration: none;
+}
+
+.arrow-link svg {
+  stroke: currentColor;
+  stroke-width: 0.5px;
+}
