@@ -8,9 +8,10 @@ import { HeaderComponent } from './portfolio/header/header.component';
 import { SkillsComponent } from './portfolio/skills/skills.component';
 import { ProjectsComponent } from './portfolio/projects/projects.component';
 import { CertificatesComponent } from './portfolio/certificates/certificates.component';
+import { FooterComponent } from './portfolio/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HeaderComponent, SkillsComponent, ProjectsComponent, CertificatesComponent],
+  declarations: [AppComponent, NavbarComponent, HeaderComponent, SkillsComponent, ProjectsComponent, CertificatesComponent, FooterComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
