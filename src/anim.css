@@ -78,8 +78,8 @@ footer:hover .nav-logo {
 }
 
 .project-title a:hover {
-  color: var(--accent-light-color);
-  text-shadow: 0 0 white;
+  color: var(--accent-light-color) !important;
+  text-shadow: 0 0 white !important;
 }
 
 .cust-btn.btn-lg:hover {
@@ -111,6 +111,6 @@ footer:hover .nav-logo {
 }
 
 #title-stop {
-  color: white;
-  animation: flicker 8s ease-in-out infinite;
+  color: white !important;
+  animation: flicker 8s ease-in-out infinite !important;
 }
